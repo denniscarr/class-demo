@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://ckudr8chj1kgo"]
+
+[ext_resource type="Texture2D" uid="uid://dxhwodxpdsujq" path="res://useful_white_square.png" id="1_4flbx"]
+
+[node name="Player" type="Node2D" unique_id=811453191]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2040365552]
+modulate = Color(1, 0, 1, 1)
+texture = ExtResource("1_4flbx")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1312452637]
+modulate = Color(1, 0, 1, 1)
+texture = ExtResource("1_4flbx")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1853260719]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(4, -1)
+scale = Vector2(0.375, 0.375)
+texture = ExtResource("1_4flbx")
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=2088093585]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-4, -1)
+scale = Vector2(0.375, 0.375)
+texture = ExtResource("1_4flbx")
