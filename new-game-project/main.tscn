@@ -10,6 +10,12 @@ position = Vector2(214, 243)
 scale = Vector2(0.5546875, 1)
 texture = ExtResource("1_ig7tw")
 
+[node name="Wall4" type="Sprite2D" parent="." unique_id=958176077]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(637.25, 511)
+scale = Vector2(4.8554688, 1)
+texture = ExtResource("1_ig7tw")
+
 [node name="Wall2" type="Sprite2D" parent="." unique_id=1616882900]
 modulate = Color(0, 0, 0, 1)
 position = Vector2(936, 483)
